@@ -111,15 +111,10 @@ public class GeneticAlgorithm {
         for (int i = 0; i < AlGenomes.size(); i++) {
             AlGenomes.get(i).calculateFitness(this.target);
 
-            if (this.currentGeneration > 0 &&
-                    AlGenomes.get(i).getFitness() == theBestEver.getFitness()) {
-                System.out.println("Achei o melhor de todos e seu fitness eh " + AlGenomes.get(i).getFitness());
-            }
-
             if (AlGenomes.get(i).getFitness() > theBestEverFitness) {
 
                 theBestEverFitness = AlGenomes.get(i).getFitness();
-                theBestEver = new Genome(AlGenomes.get(i));
+                theBestEver = new Genome(AlGenomes.get(i), target);
             }
 
         }
@@ -133,14 +128,13 @@ public class GeneticAlgorithm {
 
             Genome baby = parent1.crossover(parent2);
 
-            System.out.println(parent1.equals(parent2) + " " + parent1.equals(baby) + " "
-                    + parent2.equals(baby));
-
             offspring.add(baby);
 
         }
 
-        offspring.add(new Genome(theBestEver));
+        offspring.add(new Genome(theBestEver, target));
+
+        this.AlGenomes.clear();
 
         this.AlGenomes = offspring;
 

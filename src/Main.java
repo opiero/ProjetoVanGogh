@@ -23,13 +23,13 @@ public class Main {
             System.out.println("Erro! Não pude encontrar a imagem");
         }
 
-        GeneticAlgorithm GA = new GeneticAlgorithm(10, 50, 0.15, 500,
+        GeneticAlgorithm GA = new GeneticAlgorithm(10, 50, 0.15, 1000,
                 0, image.getWidth(), 0, image.getHeight(), image);
 
-        for (int i = 0; i < 500; i++) {
+        for (int i = 0; i < 3000; i++) {
 
+            System.out.println("Geração " + GA.getCurrentGeneration());
             GA.runGeneration();
-            System.out.println("Executei a geracao " + GA.getCurrentGeneration());
             System.out.println("Fitness do melhor de todos: " + GA.getTheBestEverFitness());
 
 

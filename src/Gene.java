@@ -54,6 +54,31 @@ public class Gene {
         iniciateRandomPolygon();
     }
 
+    public Gene(Gene another) {
+
+        this.maxVertices = another.getMaxVertices();
+        this.numVertices = another.getNumVertices();
+        this.minX = another.getMinX();
+        this.maxX = another.getMaxX();
+        this.minY = another.getMinY();
+        this.maxY = another.getMaxY();
+        this.r = another.getR();
+        this.g = another.getG();
+        this.b = another.getB();
+
+        this.xPoints = new int[this.numVertices];
+        this.yPoints = new int[this.numVertices];
+
+        for (int i = 0; i < another.getNumVertices(); i++) {
+
+            this.xPoints[i] = another.getXPointsPosition(i);
+            this.yPoints[i] = another.getYPointsPosition(i);
+
+        }
+
+        this.polygon = new Polygon(this.xPoints, this.yPoints, this.numVertices);
+    }
+
     /**
      * Construtor. Já gera um polígono aleatório
      * @param maxVertices número máximo de vértices permitido
@@ -72,6 +97,26 @@ public class Gene {
         this.maxY= maxY;
 
         iniciateRandomPolygon();
+
+
+    }
+
+    public boolean equals (Gene another) {
+
+        int anotherNumVertices = another.getNumVertices();
+
+        if (this.numVertices != anotherNumVertices)
+            return false;
+
+        for (int i = 0; i < this.numVertices; i++) {
+
+            if (this.getXPointsPosition(i) != another.getXPointsPosition(i) ||
+                    this.getYPointsPosition(i) != another.getYPointsPosition(i))
+                return false;
+
+        }
+
+        return true;
 
 
     }
@@ -156,5 +201,13 @@ public class Gene {
 
     public void setB(int b) {
         this.b = b;
+    }
+
+    public int getXPointsPosition(int i) {
+        return xPoints[i];
+    }
+
+    public int getYPointsPosition(int i) {
+        return yPoints[i];
     }
 }

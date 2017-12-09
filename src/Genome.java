@@ -30,12 +30,9 @@ public class Genome {
      * Construtor de cópia
      * @param another Genome do qual vou copiar
      */
-    public Genome (Genome another) {
+    public Genome (Genome another, BufferedImage target) {
 
-        this.fitness = another.getFitness();
-        this.phenotype = another.getPhenotype();
         this.genomeSize = another.getGenomeSize();
-        this.genes = another.getGenes();
         this.mutationChance = another.getMutationChance();
         this.maxVertices = another.getMaxVertices();
         this.minX = another.getMinX();
@@ -43,7 +40,14 @@ public class Genome {
         this.minY = another.getMinY();
         this.maxY = another.getMaxY();
 
-        this.phenotype = null;
+        this.genes = new ArrayList<Gene>();
+        for (int i = 0; i < another.getGenes().size(); i++) {
+            this.genes.add(new Gene(another.getGene(i)));
+        }
+
+        generatePhenotype();
+        calculateFitness(target);
+
 
     }
 
@@ -133,13 +137,12 @@ public class Genome {
         int divisionPoint = ThreadLocalRandom.current().nextInt(this.genomeSize);
 
         for (int i = 0; i < divisionPoint; i++)
-            babyGenome.add(this.getGene(i));
+            babyGenome.add(new Gene(this.getGene(i)));
 
         for(int i = divisionPoint; i < this.genomeSize; i++)
-            babyGenome.add(anotherParent.getGene(i));
+            babyGenome.add(new Gene(anotherParent.getGene(i)));
 
         if (ThreadLocalRandom.current().nextFloat() < mutationChance) {
-            System.out.println("ocorreu mutação!");
             babyGenome.get(ThreadLocalRandom.current().nextInt(this.genomeSize)).mutate();
         }
 
@@ -196,8 +199,6 @@ public class Genome {
 
         }
 
-        System.out.println("A fitness desse deu " + 1/sum);
-
         this.fitness = 1/sum;
 
     }
@@ -244,23 +245,19 @@ public class Genome {
 
     }
 
-    //essa função tá aqui só pra teste de debugging
+    //essa função tá aqui só pra teste de debugging, mas acho que vou usar ela for real
 
     /**
      * Compara dois genomas
      * @param another outro genoma
-     * @return true se eles forem verdadeiros. Caso contrário, false.
+     * @return true se eles forem iguais. Caso contrário, false.
      */
     public boolean equals (Genome another) {
 
-        boolean equal = true;
-
-        if (another.getGenomeSize() != this.genomeSize)
-            System.out.println("ALGO DE ERRADO NÃO ESTÁ CERTO");
 
         for (int i = 0; i < this.genomeSize; i++) {
 
-            if (this.getGene(i) != another.getGene(i))
+            if (!this.getGene(i).equals(another.getGene(i)))
                 return false;
 
         }
