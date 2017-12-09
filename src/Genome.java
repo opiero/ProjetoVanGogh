@@ -119,24 +119,24 @@ public class Genome {
 
     /**
      * Faz o crossover.
-     * MANO TEM O KPETA NESSA FUNÇÃO
-     * NEM O MELHOR DE TODOS QUE EU COLOCO EXPLICITAMENTE APARECE NA GERAÇÃO SEGUINTE
+     * Tô meio suspeito com essa função
      * @param anotherParent o outro pai com o objeto vou transar
      * @return o filho desse objeto com quem ele transou
      */
     public Genome crossover (Genome anotherParent) {
 
+        //resutado do sexo
         ArrayList <Gene> babyGenome = new ArrayList<Gene>();
 
-        for (int i = 0; i < this.genomeSize; i++){
+        //ponto de divisão. Antes desse ponto do vetor ele pegará o genoma de um pai
+        //Após esse ponto, do outro
+        int divisionPoint = ThreadLocalRandom.current().nextInt(this.genomeSize);
 
-            if (ThreadLocalRandom.current().nextFloat() < 0.5)
-                babyGenome.add(this.getGene(i));
+        for (int i = 0; i < divisionPoint; i++)
+            babyGenome.add(this.getGene(i));
 
-            else
-                babyGenome.add(anotherParent.getGene(i));
-
-        }
+        for(int i = divisionPoint; i < this.genomeSize; i++)
+            babyGenome.add(anotherParent.getGene(i));
 
         if (ThreadLocalRandom.current().nextFloat() < mutationChance) {
             System.out.println("ocorreu mutação!");
