@@ -107,6 +107,7 @@ public class GeneticAlgorithm {
      */
     public void runGeneration () {
 
+        //calculando a fitness de todos os membros
         for (int i = 0; i < AlGenomes.size(); i++) {
             AlGenomes.get(i).calculateFitness(this.target);
 
@@ -131,6 +132,9 @@ public class GeneticAlgorithm {
             Genome parent2 = tournamentOfTwo(getRandomCandidate(), getRandomCandidate());
 
             Genome baby = parent1.crossover(parent2);
+
+            System.out.println(parent1.equals(parent2) + " " + parent1.equals(baby) + " "
+                    + parent2.equals(baby));
 
             offspring.add(baby);
 

@@ -244,6 +244,31 @@ public class Genome {
 
     }
 
+    //essa função tá aqui só pra teste de debugging
+
+    /**
+     * Compara dois genomas
+     * @param another outro genoma
+     * @return true se eles forem verdadeiros. Caso contrário, false.
+     */
+    public boolean equals (Genome another) {
+
+        boolean equal = true;
+
+        if (another.getGenomeSize() != this.genomeSize)
+            System.out.println("ALGO DE ERRADO NÃO ESTÁ CERTO");
+
+        for (int i = 0; i < this.genomeSize; i++) {
+
+            if (this.getGene(i) != another.getGene(i))
+                return false;
+
+        }
+
+        return true;
+
+    }
+
     //------------------------------------------------métodos acessores
 
     public int getGenomeSize() {
