@@ -43,6 +43,8 @@ public class Genome {
         this.minY = another.getMinY();
         this.maxY = another.getMaxY();
 
+        this.phenotype = null;
+
     }
 
     /**
@@ -68,6 +70,9 @@ public class Genome {
         this.maxX = maxX;
         this.minY = minY;
         this.maxY= maxY;
+
+        this.phenotype = null;
+
 
         for (int i = 0; i < genomeSize; i++)
             genes.add(new Gene(this.maxVertices, this.minX, this.maxX, this.minY, this.maxY));
@@ -97,6 +102,9 @@ public class Genome {
 
         this.genomeSize = genes.size();
         this.genes = genes;
+
+        this.phenotype = null;
+
 
     }
 
@@ -199,7 +207,8 @@ public class Genome {
      * @return imagem gerada pelos polígonos
      */
     public BufferedImage getPhenotype() {
-        generatePhenotype(); //todo colocar um if aqui pra não ter que ficar gerando uma imagem toda vez
+        if (phenotype == null)
+            generatePhenotype();
         return phenotype;
     }
 
