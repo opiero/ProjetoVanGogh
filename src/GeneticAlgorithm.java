@@ -103,7 +103,6 @@ public class GeneticAlgorithm {
 
     /**
      * Executa uma geração
-     * MANO TEM O KPETA NESSA FUNÇÃO NÃO SEI O QUE TÁ ACONTECENDO
      */
     public void runGeneration () {
 
