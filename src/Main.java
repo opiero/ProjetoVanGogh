@@ -26,9 +26,11 @@ public class Main {
         GeneticAlgorithm GA = new GeneticAlgorithm(10, 50, 0.15, 1000,
                 0, image.getWidth(), 0, image.getHeight(), image);
 
-        for (int i = 0; i < 3000; i++) {
+        int numGenerations = 10000;
 
-            System.out.println("Geração " + GA.getCurrentGeneration());
+        for (int i = 0; i < numGenerations; i++) {
+
+            System.out.println("Geração " + GA.getCurrentGeneration() + " de " + numGenerations);
             GA.runGeneration();
             System.out.println("Fitness do melhor de todos: " + GA.getTheBestEverFitness());
 
