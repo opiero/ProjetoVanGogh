@@ -227,4 +227,12 @@ public class GeneticAlgorithm {
     public BufferedImage getTarget() {
         return target;
     }
+
+    public void setTheBestEver(Genome theBestEver) {
+        this.theBestEver = theBestEver;
+    }
+
+    public void setAlGenomes(ArrayList<Genome> alGenomes) {
+        AlGenomes = alGenomes;
+    }
 }
