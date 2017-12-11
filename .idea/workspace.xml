@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b94a5bd2-8254-402a-bc8f-72cca0d18404" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GeneticAlgorithm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-846">
+              <caret line="133" column="30" lean-forward="false" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1478#1493#0" expanded="true" />
+                <element signature="e#3217#3225#0" expanded="true" />
+                <element signature="e#5078#5079#0" expanded="true" />
+                <element signature="e#5112#5113#0" expanded="true" />
+                <element signature="e#5157#5158#0" expanded="true" />
+                <element signature="e#5198#5199#0" expanded="true" />
+                <element signature="e#5239#5240#0" expanded="true" />
+                <element signature="e#5279#5280#0" expanded="true" />
+                <element signature="e#5317#5318#0" expanded="true" />
+                <element signature="e#5354#5355#0" expanded="true" />
+                <element signature="e#5388#5389#0" expanded="true" />
+                <element signature="e#5421#5422#0" expanded="true" />
+                <element signature="e#5460#5461#0" expanded="true" />
+                <element signature="e#5495#5496#0" expanded="true" />
+                <element signature="e#5530#5531#0" expanded="true" />
+                <element signature="e#5564#5565#0" expanded="true" />
+                <element signature="e#5592#5593#0" expanded="true" />
+                <element signature="e#5619#5620#0" expanded="true" />
+                <element signature="e#5647#5648#0" expanded="true" />
+                <element signature="e#5674#5675#0" expanded="true" />
+                <element signature="e#5702#5703#0" expanded="true" />
+                <element signature="e#5729#5730#0" expanded="true" />
+                <element signature="e#5757#5758#0" expanded="true" />
+                <element signature="e#5784#5785#0" expanded="true" />
+                <element signature="e#5824#5825#0" expanded="true" />
+                <element signature="e#5853#5854#0" expanded="true" />
+                <element signature="e#5907#5908#0" expanded="true" />
+                <element signature="e#5953#5954#0" expanded="true" />
+                <element signature="e#6014#6015#0" expanded="true" />
+                <element signature="e#6051#6052#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Genome.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Genome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1224">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3293#3294#0" expanded="true" />
+                <element signature="e#3330#3331#0" expanded="true" />
+                <element signature="e#4539#4540#0" expanded="true" />
+                <element signature="e#4569#4570#0" expanded="true" />
+                <element signature="e#7247#7248#0" expanded="true" />
+                <element signature="e#7280#7281#0" expanded="true" />
+                <element signature="e#7321#7322#0" expanded="true" />
+                <element signature="e#7349#7350#0" expanded="true" />
+                <element signature="e#7390#7391#0" expanded="true" />
+                <element signature="e#7427#7428#0" expanded="true" />
+                <element signature="e#7462#7463#0" expanded="true" />
+                <element signature="e#7496#7497#0" expanded="true" />
+                <element signature="e#7524#7525#0" expanded="true" />
+                <element signature="e#7551#7552#0" expanded="true" />
+                <element signature="e#7579#7580#0" expanded="true" />
+                <element signature="e#7606#7607#0" expanded="true" />
+                <element signature="e#7634#7635#0" expanded="true" />
+                <element signature="e#7661#7662#0" expanded="true" />
+                <element signature="e#7689#7690#0" expanded="true" />
+                <element signature="e#7716#7717#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gene.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gene.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="207" column="5" lean-forward="false" selection-start-line="207" selection-start-column="5" selection-end-line="207" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1449#1450#0" expanded="true" />
+                <element signature="e#1488#1489#0" expanded="true" />
+                <element signature="e#3401#3402#0" expanded="true" />
+                <element signature="e#3431#3432#0" expanded="true" />
+                <element signature="e#3478#3479#0" expanded="true" />
+                <element signature="e#3516#3517#0" expanded="true" />
+                <element signature="e#3551#3552#0" expanded="true" />
+                <element signature="e#3585#3586#0" expanded="true" />
+                <element signature="e#3636#3637#0" expanded="true" />
+                <element signature="e#3682#3683#0" expanded="true" />
+                <element signature="e#3717#3718#0" expanded="true" />
+                <element signature="e#3751#3752#0" expanded="true" />
+                <element signature="e#3802#3803#0" expanded="true" />
+                <element signature="e#3848#3849#0" expanded="true" />
+                <element signature="e#3876#3877#0" expanded="true" />
+                <element signature="e#3903#3904#0" expanded="true" />
+                <element signature="e#3940#3941#0" expanded="true" />
+                <element signature="e#3972#3973#0" expanded="true" />
+                <element signature="e#4000#4001#0" expanded="true" />
+                <element signature="e#4027#4028#0" expanded="true" />
+                <element signature="e#4064#4065#0" expanded="true" />
+                <element signature="e#4096#4097#0" expanded="true" />
+                <element signature="e#4124#4125#0" expanded="true" />
+                <element signature="e#4151#4152#0" expanded="true" />
+                <element signature="e#4188#4189#0" expanded="true" />
+                <element signature="e#4220#4221#0" expanded="true" />
+                <element signature="e#4248#4249#0" expanded="true" />
+                <element signature="e#4275#4276#0" expanded="true" />
+                <element signature="e#4312#4313#0" expanded="true" />
+                <element signature="e#4344#4345#0" expanded="true" />
+                <element signature="e#4369#4370#0" expanded="true" />
+                <element signature="e#4393#4394#0" expanded="true" />
+                <element signature="e#4424#4425#0" expanded="true" />
+                <element signature="e#4450#4451#0" expanded="true" />
+                <element signature="e#4475#4476#0" expanded="true" />
+                <element signature="e#4499#4500#0" expanded="true" />
+                <element signature="e#4530#4531#0" expanded="true" />
+                <element signature="e#4556#4557#0" expanded="true" />
+                <element signature="e#4581#4582#0" expanded="true" />
+                <element signature="e#4605#4606#0" expanded="true" />
+                <element signature="e#4636#4637#0" expanded="true" />
+                <element signature="e#4662#4663#0" expanded="true" />
+                <element signature="e#4706#4707#0" expanded="true" />
+                <element signature="e#4739#4740#0" expanded="true" />
+                <element signature="e#4783#4784#0" expanded="true" />
+                <element signature="e#4816#4817#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="39" column="57" lean-forward="false" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Syste</find>
+      <find>mutation</find>
+      <find>mutatio</find>
+      <find>System</find>
+      <find>system</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Phenotype.java" />
+        <option value="$PROJECT_DIR$/src/Gene.java" />
+        <option value="$PROJECT_DIR$/src/Genome.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/GeneticAlgorithm.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="334" />
+    <option name="y" value="-4" />
+    <option name="width" value="1355" />
+    <option name="height" value="864" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProjetoVanGogh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetoVanGogh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjetoVanGogh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetoVanGogh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProjetoVanGogh" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b94a5bd2-8254-402a-bc8f-72cca0d18404" name="Default" comment="" />
+      <created>1512790334504</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512790334504</updated>
+    </task>
+    <task id="LOCAL-00001" summary="optimized getPhenotype()">
+      <created>1512812992569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512812992569</updated>
+    </task>
+    <task id="LOCAL-00002" summary="troquei o método do crossover">
+      <created>1512814116589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1512814116589</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Mano do céu, sei o que fiz mais não">
+      <created>1512815847326</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512815847326</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ACHO QUE TÁ FUNCIONANDO ALELUIA.&#10;Falta obter resultados.&#10;Seria bom testar a parte gráfica. Só por segurança mesmo.">
+      <created>1512854141247</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1512854141247</updated>
+    </task>
+    <task id="LOCAL-00005" summary="criei a numGenerations">
+      <created>1512854778406</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512854778406</updated>
+    </task>
+    <task id="LOCAL-00006" summary="criei a numGenerations">
+      <created>1512858613786</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512858613786</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Created some interface">
+      <created>1512917566566</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1512917566566</updated>
+    </task>
+    <task id="LOCAL-00008" summary="improved crossover and changed GA parameters">
+      <created>1512967071287</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1512967071287</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1375" height="904" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6817043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17236364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945454" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="optimized getPhenotype()" />
+    <MESSAGE value="troquei o método do crossover" />
+    <MESSAGE value="Mano do céu, sei o que fiz mais não" />
+    <MESSAGE value="ACHO QUE TÁ FUNCIONANDO ALELUIA.&#10;Falta obter resultados.&#10;Seria bom testar a parte gráfica. Só por segurança mesmo." />
+    <MESSAGE value="criei a numGenerations" />
+    <MESSAGE value="modifiquei um javadoc" />
+    <MESSAGE value="Created some interface" />
+    <MESSAGE value="improved crossover and changed GA parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved crossover and changed GA parameters" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1478#1493#0" expanded="true" />
+            <element signature="e#3217#3225#0" expanded="true" />
+            <element signature="e#5078#5079#0" expanded="true" />
+            <element signature="e#5112#5113#0" expanded="true" />
+            <element signature="e#5157#5158#0" expanded="true" />
+            <element signature="e#5198#5199#0" expanded="true" />
+            <element signature="e#5239#5240#0" expanded="true" />
+            <element signature="e#5279#5280#0" expanded="true" />
+            <element signature="e#5317#5318#0" expanded="true" />
+            <element signature="e#5354#5355#0" expanded="true" />
+            <element signature="e#5388#5389#0" expanded="true" />
+            <element signature="e#5421#5422#0" expanded="true" />
+            <element signature="e#5460#5461#0" expanded="true" />
+            <element signature="e#5495#5496#0" expanded="true" />
+            <element signature="e#5530#5531#0" expanded="true" />
+            <element signature="e#5564#5565#0" expanded="true" />
+            <element signature="e#5592#5593#0" expanded="true" />
+            <element signature="e#5619#5620#0" expanded="true" />
+            <element signature="e#5647#5648#0" expanded="true" />
+            <element signature="e#5674#5675#0" expanded="true" />
+            <element signature="e#5702#5703#0" expanded="true" />
+            <element signature="e#5729#5730#0" expanded="true" />
+            <element signature="e#5757#5758#0" expanded="true" />
+            <element signature="e#5784#5785#0" expanded="true" />
+            <element signature="e#5824#5825#0" expanded="true" />
+            <element signature="e#5853#5854#0" expanded="true" />
+            <element signature="e#5907#5908#0" expanded="true" />
+            <element signature="e#5953#5954#0" expanded="true" />
+            <element signature="e#6014#6015#0" expanded="true" />
+            <element signature="e#6051#6052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Genome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4374">
+          <caret line="251" column="69" lean-forward="false" selection-start-line="251" selection-start-column="69" selection-end-line="251" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3293#3294#0" expanded="true" />
+            <element signature="e#3330#3331#0" expanded="true" />
+            <element signature="e#4539#4540#0" expanded="true" />
+            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="e#7247#7248#0" expanded="true" />
+            <element signature="e#7280#7281#0" expanded="true" />
+            <element signature="e#7321#7322#0" expanded="true" />
+            <element signature="e#7349#7350#0" expanded="true" />
+            <element signature="e#7390#7391#0" expanded="true" />
+            <element signature="e#7427#7428#0" expanded="true" />
+            <element signature="e#7462#7463#0" expanded="true" />
+            <element signature="e#7496#7497#0" expanded="true" />
+            <element signature="e#7524#7525#0" expanded="true" />
+            <element signature="e#7551#7552#0" expanded="true" />
+            <element signature="e#7579#7580#0" expanded="true" />
+            <element signature="e#7606#7607#0" expanded="true" />
+            <element signature="e#7634#7635#0" expanded="true" />
+            <element signature="e#7661#7662#0" expanded="true" />
+            <element signature="e#7689#7690#0" expanded="true" />
+            <element signature="e#7716#7717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk-9.0.1/lib/src.zip!/java.base/java/util/concurrent/ThreadLocalRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3420">
+          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1332">
+          <caret line="78" column="84" lean-forward="false" selection-start-line="78" selection-start-column="84" selection-end-line="78" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#3401#3402#0" expanded="true" />
+            <element signature="e#3431#3432#0" expanded="true" />
+            <element signature="e#3478#3479#0" expanded="true" />
+            <element signature="e#3516#3517#0" expanded="true" />
+            <element signature="e#3551#3552#0" expanded="true" />
+            <element signature="e#3585#3586#0" expanded="true" />
+            <element signature="e#3636#3637#0" expanded="true" />
+            <element signature="e#3682#3683#0" expanded="true" />
+            <element signature="e#3717#3718#0" expanded="true" />
+            <element signature="e#3751#3752#0" expanded="true" />
+            <element signature="e#3802#3803#0" expanded="true" />
+            <element signature="e#3848#3849#0" expanded="true" />
+            <element signature="e#3876#3877#0" expanded="true" />
+            <element signature="e#3903#3904#0" expanded="true" />
+            <element signature="e#3940#3941#0" expanded="true" />
+            <element signature="e#3972#3973#0" expanded="true" />
+            <element signature="e#4000#4001#0" expanded="true" />
+            <element signature="e#4027#4028#0" expanded="true" />
+            <element signature="e#4064#4065#0" expanded="true" />
+            <element signature="e#4096#4097#0" expanded="true" />
+            <element signature="e#4124#4125#0" expanded="true" />
+            <element signature="e#4151#4152#0" expanded="true" />
+            <element signature="e#4188#4189#0" expanded="true" />
+            <element signature="e#4220#4221#0" expanded="true" />
+            <element signature="e#4248#4249#0" expanded="true" />
+            <element signature="e#4275#4276#0" expanded="true" />
+            <element signature="e#4312#4313#0" expanded="true" />
+            <element signature="e#4344#4345#0" expanded="true" />
+            <element signature="e#4369#4370#0" expanded="true" />
+            <element signature="e#4393#4394#0" expanded="true" />
+            <element signature="e#4424#4425#0" expanded="true" />
+            <element signature="e#4450#4451#0" expanded="true" />
+            <element signature="e#4475#4476#0" expanded="true" />
+            <element signature="e#4499#4500#0" expanded="true" />
+            <element signature="e#4530#4531#0" expanded="true" />
+            <element signature="e#4556#4557#0" expanded="true" />
+            <element signature="e#4581#4582#0" expanded="true" />
+            <element signature="e#4605#4606#0" expanded="true" />
+            <element signature="e#4636#4637#0" expanded="true" />
+            <element signature="e#4662#4663#0" expanded="true" />
+            <element signature="e#4706#4707#0" expanded="true" />
+            <element signature="e#4739#4740#0" expanded="true" />
+            <element signature="e#4783#4784#0" expanded="true" />
+            <element signature="e#4816#4817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" column="53" lean-forward="false" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1478#1493#0" expanded="true" />
+            <element signature="e#3217#3225#0" expanded="true" />
+            <element signature="e#5078#5079#0" expanded="true" />
+            <element signature="e#5112#5113#0" expanded="true" />
+            <element signature="e#5157#5158#0" expanded="true" />
+            <element signature="e#5198#5199#0" expanded="true" />
+            <element signature="e#5239#5240#0" expanded="true" />
+            <element signature="e#5279#5280#0" expanded="true" />
+            <element signature="e#5317#5318#0" expanded="true" />
+            <element signature="e#5354#5355#0" expanded="true" />
+            <element signature="e#5388#5389#0" expanded="true" />
+            <element signature="e#5421#5422#0" expanded="true" />
+            <element signature="e#5460#5461#0" expanded="true" />
+            <element signature="e#5495#5496#0" expanded="true" />
+            <element signature="e#5530#5531#0" expanded="true" />
+            <element signature="e#5564#5565#0" expanded="true" />
+            <element signature="e#5592#5593#0" expanded="true" />
+            <element signature="e#5619#5620#0" expanded="true" />
+            <element signature="e#5647#5648#0" expanded="true" />
+            <element signature="e#5674#5675#0" expanded="true" />
+            <element signature="e#5702#5703#0" expanded="true" />
+            <element signature="e#5729#5730#0" expanded="true" />
+            <element signature="e#5757#5758#0" expanded="true" />
+            <element signature="e#5784#5785#0" expanded="true" />
+            <element signature="e#5824#5825#0" expanded="true" />
+            <element signature="e#5853#5854#0" expanded="true" />
+            <element signature="e#5907#5908#0" expanded="true" />
+            <element signature="e#5953#5954#0" expanded="true" />
+            <element signature="e#6014#6015#0" expanded="true" />
+            <element signature="e#6051#6052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#3401#3402#0" expanded="true" />
+            <element signature="e#3431#3432#0" expanded="true" />
+            <element signature="e#3478#3479#0" expanded="true" />
+            <element signature="e#3516#3517#0" expanded="true" />
+            <element signature="e#3551#3552#0" expanded="true" />
+            <element signature="e#3585#3586#0" expanded="true" />
+            <element signature="e#3636#3637#0" expanded="true" />
+            <element signature="e#3682#3683#0" expanded="true" />
+            <element signature="e#3717#3718#0" expanded="true" />
+            <element signature="e#3751#3752#0" expanded="true" />
+            <element signature="e#3802#3803#0" expanded="true" />
+            <element signature="e#3848#3849#0" expanded="true" />
+            <element signature="e#3876#3877#0" expanded="true" />
+            <element signature="e#3903#3904#0" expanded="true" />
+            <element signature="e#3940#3941#0" expanded="true" />
+            <element signature="e#3972#3973#0" expanded="true" />
+            <element signature="e#4000#4001#0" expanded="true" />
+            <element signature="e#4027#4028#0" expanded="true" />
+            <element signature="e#4064#4065#0" expanded="true" />
+            <element signature="e#4096#4097#0" expanded="true" />
+            <element signature="e#4124#4125#0" expanded="true" />
+            <element signature="e#4151#4152#0" expanded="true" />
+            <element signature="e#4188#4189#0" expanded="true" />
+            <element signature="e#4220#4221#0" expanded="true" />
+            <element signature="e#4248#4249#0" expanded="true" />
+            <element signature="e#4275#4276#0" expanded="true" />
+            <element signature="e#4312#4313#0" expanded="true" />
+            <element signature="e#4344#4345#0" expanded="true" />
+            <element signature="e#4369#4370#0" expanded="true" />
+            <element signature="e#4393#4394#0" expanded="true" />
+            <element signature="e#4424#4425#0" expanded="true" />
+            <element signature="e#4450#4451#0" expanded="true" />
+            <element signature="e#4475#4476#0" expanded="true" />
+            <element signature="e#4499#4500#0" expanded="true" />
+            <element signature="e#4530#4531#0" expanded="true" />
+            <element signature="e#4556#4557#0" expanded="true" />
+            <element signature="e#4581#4582#0" expanded="true" />
+            <element signature="e#4605#4606#0" expanded="true" />
+            <element signature="e#4636#4637#0" expanded="true" />
+            <element signature="e#4662#4663#0" expanded="true" />
+            <element signature="e#4706#4707#0" expanded="true" />
+            <element signature="e#4739#4740#0" expanded="true" />
+            <element signature="e#4783#4784#0" expanded="true" />
+            <element signature="e#4816#4817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Phenotype.java" />
+    <entry file="file://$PROJECT_DIR$/src/Genome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3293#3294#0" expanded="true" />
+            <element signature="e#3330#3331#0" expanded="true" />
+            <element signature="e#4539#4540#0" expanded="true" />
+            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="e#7247#7248#0" expanded="true" />
+            <element signature="e#7280#7281#0" expanded="true" />
+            <element signature="e#7321#7322#0" expanded="true" />
+            <element signature="e#7349#7350#0" expanded="true" />
+            <element signature="e#7390#7391#0" expanded="true" />
+            <element signature="e#7427#7428#0" expanded="true" />
+            <element signature="e#7462#7463#0" expanded="true" />
+            <element signature="e#7496#7497#0" expanded="true" />
+            <element signature="e#7524#7525#0" expanded="true" />
+            <element signature="e#7551#7552#0" expanded="true" />
+            <element signature="e#7579#7580#0" expanded="true" />
+            <element signature="e#7606#7607#0" expanded="true" />
+            <element signature="e#7634#7635#0" expanded="true" />
+            <element signature="e#7661#7662#0" expanded="true" />
+            <element signature="e#7689#7690#0" expanded="true" />
+            <element signature="e#7716#7717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Phenotype.java" />
+    <entry file="jar:///usr/local/java/jdk-9.0.1/lib/src.zip!/java.base/java/util/concurrent/ThreadLocalRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="207" column="5" lean-forward="false" selection-start-line="207" selection-start-column="5" selection-end-line="207" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#3401#3402#0" expanded="true" />
+            <element signature="e#3431#3432#0" expanded="true" />
+            <element signature="e#3478#3479#0" expanded="true" />
+            <element signature="e#3516#3517#0" expanded="true" />
+            <element signature="e#3551#3552#0" expanded="true" />
+            <element signature="e#3585#3586#0" expanded="true" />
+            <element signature="e#3636#3637#0" expanded="true" />
+            <element signature="e#3682#3683#0" expanded="true" />
+            <element signature="e#3717#3718#0" expanded="true" />
+            <element signature="e#3751#3752#0" expanded="true" />
+            <element signature="e#3802#3803#0" expanded="true" />
+            <element signature="e#3848#3849#0" expanded="true" />
+            <element signature="e#3876#3877#0" expanded="true" />
+            <element signature="e#3903#3904#0" expanded="true" />
+            <element signature="e#3940#3941#0" expanded="true" />
+            <element signature="e#3972#3973#0" expanded="true" />
+            <element signature="e#4000#4001#0" expanded="true" />
+            <element signature="e#4027#4028#0" expanded="true" />
+            <element signature="e#4064#4065#0" expanded="true" />
+            <element signature="e#4096#4097#0" expanded="true" />
+            <element signature="e#4124#4125#0" expanded="true" />
+            <element signature="e#4151#4152#0" expanded="true" />
+            <element signature="e#4188#4189#0" expanded="true" />
+            <element signature="e#4220#4221#0" expanded="true" />
+            <element signature="e#4248#4249#0" expanded="true" />
+            <element signature="e#4275#4276#0" expanded="true" />
+            <element signature="e#4312#4313#0" expanded="true" />
+            <element signature="e#4344#4345#0" expanded="true" />
+            <element signature="e#4369#4370#0" expanded="true" />
+            <element signature="e#4393#4394#0" expanded="true" />
+            <element signature="e#4424#4425#0" expanded="true" />
+            <element signature="e#4450#4451#0" expanded="true" />
+            <element signature="e#4475#4476#0" expanded="true" />
+            <element signature="e#4499#4500#0" expanded="true" />
+            <element signature="e#4530#4531#0" expanded="true" />
+            <element signature="e#4556#4557#0" expanded="true" />
+            <element signature="e#4581#4582#0" expanded="true" />
+            <element signature="e#4605#4606#0" expanded="true" />
+            <element signature="e#4636#4637#0" expanded="true" />
+            <element signature="e#4662#4663#0" expanded="true" />
+            <element signature="e#4706#4707#0" expanded="true" />
+            <element signature="e#4739#4740#0" expanded="true" />
+            <element signature="e#4783#4784#0" expanded="true" />
+            <element signature="e#4816#4817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="39" column="57" lean-forward="false" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Genome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1224">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3293#3294#0" expanded="true" />
+            <element signature="e#3330#3331#0" expanded="true" />
+            <element signature="e#4539#4540#0" expanded="true" />
+            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="e#7247#7248#0" expanded="true" />
+            <element signature="e#7280#7281#0" expanded="true" />
+            <element signature="e#7321#7322#0" expanded="true" />
+            <element signature="e#7349#7350#0" expanded="true" />
+            <element signature="e#7390#7391#0" expanded="true" />
+            <element signature="e#7427#7428#0" expanded="true" />
+            <element signature="e#7462#7463#0" expanded="true" />
+            <element signature="e#7496#7497#0" expanded="true" />
+            <element signature="e#7524#7525#0" expanded="true" />
+            <element signature="e#7551#7552#0" expanded="true" />
+            <element signature="e#7579#7580#0" expanded="true" />
+            <element signature="e#7606#7607#0" expanded="true" />
+            <element signature="e#7634#7635#0" expanded="true" />
+            <element signature="e#7661#7662#0" expanded="true" />
+            <element signature="e#7689#7690#0" expanded="true" />
+            <element signature="e#7716#7717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-846">
+          <caret line="133" column="30" lean-forward="false" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1478#1493#0" expanded="true" />
+            <element signature="e#3217#3225#0" expanded="true" />
+            <element signature="e#5078#5079#0" expanded="true" />
+            <element signature="e#5112#5113#0" expanded="true" />
+            <element signature="e#5157#5158#0" expanded="true" />
+            <element signature="e#5198#5199#0" expanded="true" />
+            <element signature="e#5239#5240#0" expanded="true" />
+            <element signature="e#5279#5280#0" expanded="true" />
+            <element signature="e#5317#5318#0" expanded="true" />
+            <element signature="e#5354#5355#0" expanded="true" />
+            <element signature="e#5388#5389#0" expanded="true" />
+            <element signature="e#5421#5422#0" expanded="true" />
+            <element signature="e#5460#5461#0" expanded="true" />
+            <element signature="e#5495#5496#0" expanded="true" />
+            <element signature="e#5530#5531#0" expanded="true" />
+            <element signature="e#5564#5565#0" expanded="true" />
+            <element signature="e#5592#5593#0" expanded="true" />
+            <element signature="e#5619#5620#0" expanded="true" />
+            <element signature="e#5647#5648#0" expanded="true" />
+            <element signature="e#5674#5675#0" expanded="true" />
+            <element signature="e#5702#5703#0" expanded="true" />
+            <element signature="e#5729#5730#0" expanded="true" />
+            <element signature="e#5757#5758#0" expanded="true" />
+            <element signature="e#5784#5785#0" expanded="true" />
+            <element signature="e#5824#5825#0" expanded="true" />
+            <element signature="e#5853#5854#0" expanded="true" />
+            <element signature="e#5907#5908#0" expanded="true" />
+            <element signature="e#5953#5954#0" expanded="true" />
+            <element signature="e#6014#6015#0" expanded="true" />
+            <element signature="e#6051#6052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ProjetoVanGogh</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
