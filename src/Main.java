@@ -19,7 +19,7 @@ public class Main {
 
         int numGenerations = input.nextInt();
 
-        System.out.printf("Há algum fenótipo inicial?(y/n) ");
+        /*System.out.printf("Há algum fenótipo inicial?(y/n) ");
 
         String yesOrNo = input.nextLine();
 
@@ -30,14 +30,14 @@ public class Main {
             System.out.printf("Qual? ");
             starterName = input.nextLine();
 
-        }
+        }*/
 
         BufferedImage image = null;
 
 
         image = ImageIO.read(new File(imageName));
 
-        GeneticAlgorithm GA = new GeneticAlgorithm(10, 50, 0.15, 1000,
+        GeneticAlgorithm GA = new GeneticAlgorithm(3, 100, 0.7, 15,
                 0, image.getWidth(), 0, image.getHeight(), image);
 
         for (int i = 0; i < numGenerations; i++) {

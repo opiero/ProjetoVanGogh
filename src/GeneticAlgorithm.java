@@ -122,8 +122,16 @@ public class GeneticAlgorithm {
 
         while (offspring.size() < this.populationSize - 1){
 
-            Genome parent1 = tournamentOfTwo(getRandomCandidate(), getRandomCandidate());
-            Genome parent2 = tournamentOfTwo(getRandomCandidate(), getRandomCandidate());
+            Genome parent1 = null;
+            Genome parent2 = null;
+
+            do {
+
+                parent1 = tournamentOfTwo(getRandomCandidate(), getRandomCandidate());
+                parent2 = tournamentOfTwo(getRandomCandidate(), getRandomCandidate());
+
+
+            } while (parent1 == parent2);
 
             Genome baby = parent1.crossover(parent2);
 
