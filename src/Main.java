@@ -19,21 +19,9 @@ public class Main {
 
         int numGenerations = input.nextInt();
 
-        /*System.out.printf("Há algum fenótipo inicial?(y/n) ");
-
-        String yesOrNo = input.nextLine();
-
-        String starterName = null;
-
-        if (yesOrNo == "y") {
-
-            System.out.printf("Qual? ");
-            starterName = input.nextLine();
-
-        }*/
-
         BufferedImage image = null;
 
+        double bestEverFitness = 0.0;
 
         image = ImageIO.read(new File(imageName));
 
@@ -46,7 +34,10 @@ public class Main {
             GA.runGeneration();
             System.out.println("Fitness do melhor de todos: " + GA.getTheBestEverFitness());
 
-            if (i % 100 == 0){
+            if (GA.getTheBestEverFitness() > bestEverFitness){
+
+                bestEverFitness = GA.getTheBestEverFitness();
+
                 File output = new File (imageName + i + ".jpg");
 
                 ImageIO.write(GA.getTheBestEver().getPhenotype(), "jpg", output);

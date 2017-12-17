@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.util.ArrayList;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -21,8 +22,19 @@ public class Gene {
     private int r, g ,b;
 
     //vetores com as coordenadas do polígono
-    private int [] xPoints;
-    private int [] yPoints;
+    private ArrayList <Integer> xPoints;
+    private ArrayList<Integer> yPoints;
+
+    private int[] toArray (ArrayList<Integer> aL) {
+
+        int[] integerArray = new int[aL.size()];
+
+        for (int i = 0; i < aL.size(); i++) {
+            integerArray[i] = aL.get(i);
+        }
+
+        return integerArray;
+    }
 
     /**
      * gera um polígono aleatório e salva em polygon
@@ -35,15 +47,15 @@ public class Gene {
 
         this.numVertices = ThreadLocalRandom.current().nextInt(3, maxVertices);
 
-        this.xPoints = new int[this.numVertices];
-        this.yPoints = new int[this.numVertices];
+        this.xPoints = new ArrayList<Integer> ();
+        this.yPoints = new ArrayList<Integer> ();
 
         for (int i = 0; i < this.numVertices; i++) {
-            xPoints[i] = ThreadLocalRandom.current().nextInt(minX, maxX);
-            yPoints[i] = ThreadLocalRandom.current().nextInt(minY, maxY);
+            xPoints.add(ThreadLocalRandom.current().nextInt(minX, maxX));
+            yPoints.add(ThreadLocalRandom.current().nextInt(minY, maxY));
         }
 
-        polygon = new Polygon(xPoints, yPoints, numVertices);
+        polygon = new Polygon(toArray(this.xPoints), toArray(this.yPoints), numVertices);
 
     }
 
@@ -51,7 +63,57 @@ public class Gene {
      * faz a mutação desse gene, que é trocar completamente o polígono dele
      */
     public void mutate () {
-        iniciateRandomPolygon();
+
+        double dice = ThreadLocalRandom.current().nextDouble();
+
+        //mutação pra trocar a cor
+        if (dice < 0.45) {
+
+            dice = ThreadLocalRandom.current().nextDouble();
+
+            if (dice < 0.33)
+                this.r = ThreadLocalRandom.current().nextInt(256);
+            else if (dice < 0.66)
+                this.g = ThreadLocalRandom.current().nextInt(256);
+            else
+                this.b = ThreadLocalRandom.current().nextInt(256);
+
+
+        }
+
+        //mutação pra adicionar/remover um vértice
+        else if (dice < 0.90) {
+
+            dice = ThreadLocalRandom.current().nextDouble();
+
+            if ( (dice < 0.5 && this.xPoints.size() > 3) ) {
+
+                int removedIndex = ThreadLocalRandom.current().nextInt(this.xPoints.size());
+
+                this.xPoints.remove(removedIndex);
+                this.yPoints.remove(removedIndex);
+
+                this.numVertices--;
+
+            }
+
+            else if (this.xPoints.size() < this.maxVertices) {
+
+                this.xPoints.add(ThreadLocalRandom.current().nextInt(minX, maxX));
+                this.yPoints.add(ThreadLocalRandom.current().nextInt(minY, maxY));
+
+                this.numVertices++;
+
+
+            }
+
+            polygon = new Polygon(toArray(this.xPoints), toArray(this.yPoints), numVertices);
+
+        }
+
+        //mutação pra gerar um novo polígono
+        else
+            iniciateRandomPolygon();
     }
 
     public Gene(Gene another) {
@@ -66,17 +128,17 @@ public class Gene {
         this.g = another.getG();
         this.b = another.getB();
 
-        this.xPoints = new int[this.numVertices];
-        this.yPoints = new int[this.numVertices];
+        this.xPoints = new ArrayList<Integer> ();
+        this.yPoints = new ArrayList<Integer> ();
 
         for (int i = 0; i < another.getNumVertices(); i++) {
 
-            this.xPoints[i] = another.getXPointsPosition(i);
-            this.yPoints[i] = another.getYPointsPosition(i);
+            xPoints.add(ThreadLocalRandom.current().nextInt(minX, maxX));
+            yPoints.add(ThreadLocalRandom.current().nextInt(minY, maxY));
 
         }
 
-        this.polygon = new Polygon(this.xPoints, this.yPoints, this.numVertices);
+        this.polygon = new Polygon(toArray(this.xPoints), toArray(this.yPoints), this.numVertices);
     }
 
     /**
@@ -204,10 +266,10 @@ public class Gene {
     }
 
     public int getXPointsPosition(int i) {
-        return xPoints[i];
+        return xPoints.get(i);
     }
 
     public int getYPointsPosition(int i) {
-        return yPoints[i];
+        return yPoints.get(i);
     }
 }
